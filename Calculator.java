@@ -10,7 +10,7 @@ public class Calculator {
     }
 
     static int sub(int a, int b){
-        return 1;
+        return a-b;
     }
 
     static int mul(int a, int b){

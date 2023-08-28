@@ -6,25 +6,25 @@ public class Calculator {
     char op;
 
     static int sum(int a, int b){
-        return 0;
+        return a+b;
     }
 
     static int sub(int a, int b){
-        return 0;
+        return a-b;
     }
 
     static int mul(int a, int b){
-        return 0;
+        return a*b;
     }
 
     static int div(int a, int b){
-        return 0;
+        return a/b;
     }
 
     public static void main(String[] args){
         
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("please enter expression!");
         int a = sc.nextInt();
         char op = sc.next().charAt(0);
         int b = sc.nextInt();

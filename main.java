@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class main {
 
     int a,b,c; 
     char op;

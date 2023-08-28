@@ -6,19 +6,19 @@ public class Calculator {
     char op;
 
     static int sum(int a, int b){
-        return 1;
+        return a+b;
     }
 
     static int sub(int a, int b){
-        return a-b;
+        return 1;
     }
 
     static int mul(int a, int b){
-        return a*b;
+        return 1;
     }
 
     static int div(int a, int b){
-        return a/b;
+        return 1;
     }
 
     public static void main(String[] args){

@@ -24,7 +24,7 @@ public class Calculator {
     public static void main(String[] args){
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("please enter expression!");
+        println("please enter a expression");
         int a = sc.nextInt();
         char op = sc.next().charAt(0);
         int b = sc.nextInt();

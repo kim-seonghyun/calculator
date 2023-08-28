@@ -18,7 +18,7 @@ public class Calculator {
     }
 
     static int div(int a, int b){
-        return 1;
+        return a/b;
     }
 
     public static void main(String[] args){

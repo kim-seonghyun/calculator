@@ -6,7 +6,7 @@ public class Calculator {
     char op;
 
     static int sum(int a, int b){
-        return a+b;
+        return 1;
     }
 
     static int sub(int a, int b){

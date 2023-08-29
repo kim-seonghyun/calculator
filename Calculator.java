@@ -21,6 +21,12 @@ public class Calculator {
         return a/b;
     }
 
+     static int remain(int a, int b){
+        return a%b;
+    }   
+    
+
+
     public static void main(String[] args){
         
         Scanner sc = new Scanner(System.in);
@@ -50,6 +56,11 @@ public class Calculator {
              case '/':
                 result = div(a,b);
                 System.out.println(a + " / " + b + " = " + result);
+                break;
+
+            case '%':
+                result = remain(a,b);
+                System.out.println(a + " % " + b + " = " + result);
                 break;
 
     }
